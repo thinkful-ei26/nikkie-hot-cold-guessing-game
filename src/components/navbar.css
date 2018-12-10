@@ -1,0 +1,17 @@
+.navbar li {
+  display:inline-block;
+}
+
+.navbar li:last-child {
+  float:right;
+  margin-right:40px;
+}
+
+.navbar li:first-child {
+  float:left;
+}
+
+.navbar li a{
+  color:white;
+  text-decoration: none;
+}
