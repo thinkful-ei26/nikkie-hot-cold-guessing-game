@@ -15,13 +15,9 @@ const links = [{
 export default function Game() {
     return (
       <div className="game">
-        <div className="header">
           <Navbar links={links} /> 
-        </div>
         <h1>HOT or COLD?</h1>
-        <div className="game-board">
-          {/* <GameBoard />  */}
-        </div>      
+          <GameBoard /> 
       </div>
     );
 }
