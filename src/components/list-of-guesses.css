@@ -2,4 +2,15 @@
   height:50px;
   background-color:purple;
   margin:0;
+  list-style: none;
+  padding:0;
+  padding-top:10px;
+  /* text-align: left; */
+}
+
+.list-of-guesses li{
+  display:inline;
+  margin:5px;
+  background-color:white;
+  text-align: center;
 }
