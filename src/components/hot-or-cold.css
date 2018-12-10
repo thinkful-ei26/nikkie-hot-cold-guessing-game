@@ -1,0 +1,10 @@
+.hot-or-cold{
+  background-color:red;
+  color:white;
+}
+
+p{
+  padding:20px;
+  font-size:20px;
+  margin:0;
+}

@@ -1,11 +1,16 @@
 import React from 'react';
+import HotOrCold from './hot-or-cold';
+import GuessForm from './guess-form';
 
 import './game-board.css';
 
 export default function GameBoard() {
+  const message = "Make A Guess!";
+
     return (
       <div className="game-board">
-      {/* Make your guess/hot/cold h3 */}
+        <HotOrCold message={message}/> 
+        <GuessForm /> 
       {/* Form with guess input and button */}
       {/* Number of guesses */}
       {/* list of guesses */}
