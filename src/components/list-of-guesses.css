@@ -5,7 +5,7 @@
   list-style: none;
   padding:0;
   padding-top:10px;
-  /* text-align: left; */
+  overflow:scroll;
 }
 
 .list-of-guesses li{
